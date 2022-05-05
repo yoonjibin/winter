@@ -55,7 +55,7 @@ class MemoryMemberRepositoryTest {
 
         List<Member> result=repository.findAll();
 
-        assertThat(result.size()).isEqualTo(2);
+        assertThat(result.size()).isEqualTo("이미 존재하는 회원입니다.");
 
     }
 }
