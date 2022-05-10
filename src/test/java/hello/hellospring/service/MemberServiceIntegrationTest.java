@@ -27,10 +27,10 @@ class MemberServiceIntegrationTest {
     void join() {
         //given
         Member member = new Member ();
-        member.setName ("hello");
+        member.setName ("kim");
 
         //when
-        Long saveId = memberService.join (member);
+        Long saveId = memberService.join(member);
 
         //then
         Member findMember = memberService.findOne (saveId).get ();
