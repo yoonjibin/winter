@@ -5,6 +5,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# ignore properties file
 /src/main/resources/application.properties
 sql/ddl.sql
 
