@@ -6,12 +6,12 @@ import javax.persistence.EntityManager;
 import java.util.List;
 import java.util.Optional;
 
-public class JpaMembergfRepository implements MemberRepository {
+public class JpaMemberRepository implements MemberRepository {
 
 
     private final EntityManager em;
 
-    public JpaMembergfRepository(EntityManager em) {
+    public JpaMemberRepository(EntityManager em) {
         this.em = em;
     }
 
